@@ -1,6 +1,6 @@
 name 'postgis2'
 maintainer 'Rogelio Castillo'
-maintainer_email 'github@rogeliocastillo.com'
+maintainer_email 'public@rogeliocastillo.com'
 license 'Apache v2.0'
 description 'Installs and configures PostGIS 2'
 version  '1.0.0'
