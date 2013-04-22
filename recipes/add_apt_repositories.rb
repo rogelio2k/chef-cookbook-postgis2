@@ -7,7 +7,6 @@ apt_repository "geos" do
   key "DAF764E2"
   deb_src false
   action :add
-  notifies :run, "execute[apt-get update]", :immediately # bug on chef 10.10 does not run the update command
 end
 
 apt_repository "postgis-nightly" do
@@ -19,5 +18,4 @@ apt_repository "postgis-nightly" do
   key "DAF764E2"
   deb_src false
   action :add
-  notifies :run, "execute[apt-get update]", :immediately # bug on chef 10.10 does not run the update command
 end
