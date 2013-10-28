@@ -3,7 +3,7 @@ maintainer 'Rogelio Castillo'
 maintainer_email 'public@rogeliocastillo.com'
 license 'Apache v2.0'
 description 'Installs and configures PostGIS 2'
-version  '1.0.1'
+version  '1.0.2'
 long_description  IO.read(File.join(File.dirname(__FILE__), 'README.md'))
 
 depends 'apt'

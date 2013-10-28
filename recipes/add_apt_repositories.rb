@@ -1,9 +1,8 @@
-apt_repository "apt.postgresql.org" do
+apt_repository "postgis" do
   uri "http://apt.postgresql.org/pub/repos/apt"
-  distribution node['lsb']['codename']
-  distribution "precise"
+  distribution node['lsb']['codename'] + "-pgdg"
   components ["main"]
-  keyserver "www.postgresql.org/media/keys"
+  keyserver "keyserver.ubuntu.com"
   key "ACCC4CF8"
   deb_src false
   action :add
