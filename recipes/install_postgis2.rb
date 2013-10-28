@@ -1,4 +1,8 @@
-package "postgresql-9.1-postgis" do
+package "postgresql-9.2-postgis-2.1" do
   action :install
   options "--force-yes" # due the workaround to add new repositories, this option is needed to installed the new packages
+end
+
+package "postgresql-9.2-postgis-2.1-scripts" do
+  action :install
 end
