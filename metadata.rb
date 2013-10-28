@@ -6,7 +6,7 @@ description 'Installs and configures PostGIS 2'
 version  '1.0.1'
 long_description  IO.read(File.join(File.dirname(__FILE__), 'README.md'))
 
-depends 'apt', '1.7.0'
+depends 'apt'
 depends 'postgresql', '>= 0.99.5'
 
 %w{ ubuntu debian }.each do |os|
