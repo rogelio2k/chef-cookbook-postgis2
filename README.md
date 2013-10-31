@@ -40,12 +40,12 @@ Include all the recepies on this cookbook to get postgis up and running
 add-apt-repositories
 ------
 
-Add new repositories to get the (unofficial) packages for PostGIS 2
+Add new repositories to get the (official) packages for PostGIS 2.1
 
 create-db-template
 ------
 
-Creates a new database template as indicated on PostGIS 2 installation
+Creates a new database template as indicated on PostGIS 2.1 installation
 documentation
 
 fix-locale
@@ -56,13 +56,13 @@ Sets locale variables
 initialise-db-template
 ------
 
-Initialise the template database as indicated on Postgis 2 installation
+Initialise the template database as indicated on Postgis 2.1 installation
 documentation
 
 install-postgis2
 ------
 
-Install PostGIS 2 packages from the (unofficial) repositories added on 
+Install PostGIS 2.1 packages from the (official) repositories added on 
 `add-apt-repositories`
 
 install-support-packages
@@ -71,6 +71,10 @@ install-support-packages
 Basically installs the `python-software-properties` package to support the
 `apt-add-repository` command
 
+setup-default-template-with-postgis
+------
+
+Setup PostGIS 2.1 to default postgresql template (template1). After that new db will be with extension.
 
 Usage
 =====
